@@ -1,4 +1,4 @@
-# FrontEnd-Week3
+# FrontEnd-Week3 -- Bootstrap
 
 ## Promineo Tech FrontEnd Software Development Coding Bootcamp 
 ## Week 9 of 12 
