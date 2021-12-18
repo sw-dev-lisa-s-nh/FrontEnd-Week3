@@ -1,0 +1,38 @@
+html {
+    background-color: lightgray;
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro-card {
+    width: 350px;
+    box-shadow: 0 0 8px 6px rgb(6, 125, 230);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    font-family: 'Dancing Script', cursive;
+    display : flex;
+    justify-content: center; 
+}
+
+.table-jumbo {
+    background-color: lightskyblue;
+    width: 75%;
+    font-weight:4px;
+
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size:  36px;
+}
+
+li {
+    font-family: 'Dancing Script', cursive;
+}

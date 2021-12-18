@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>IceCreamHQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>IceCreamCentral</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="week3.css">
 </head>
-<body class="container">
+<body class="container border border-primary rounded mx-auto d-block ">
     <h1>Ice Cream Central</h1>
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">IceCreamHQ</a>
+        <a class="navbar-brand" href="index.html">IceCreamCentral</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +29,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Ice Cream Central</a> 
+                    <a class="nav-link" href="#">Ice Cream Central</a> 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="info.html">More Information</a>
@@ -34,53 +38,137 @@
         </div>
     </nav>
 <br><br>
-<div class="row justify-content:space-around">
-    <div class="col-xs-6">
-      <a href="#" class="thumbnail">
-        <img height="150 pixels" src="icecream.jpg" alt="Ice Cream">
-      </a>
-    </div>
-    <div class="col-xs-6">
-        <a href="#" class="thumbnail">
-          <img height="150 pixels" src="icecream.jpg" alt="Ice Cream">
+<div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid border-b border-primary py-5">
+        <h1 class="display-4 mx-auto m-3 p-2">Delicious ice creams!</h1>
+        <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+        <!-- <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+
+
+    <h2 class="mx-auto m-3 p-2">Check out some of our flavors!</h2>
+    <div class="row mx-auto justify-content:space-evenly">
+        <div class="col-xs-6  border border-primary rounded mx-auto d-block m-2 p-1">
+            <a href="#">
+            <img height="150 pixels" src="mintchoc.jpg" alt="Ice Cream">
+            </a>
+        </div> 
+        <div class="col-xs-6  border border-primary rounded mx-auto d-block m-2 p-1">
+            <a href="#">
+            <img height="150 pixels" src="icecream.jpg" alt="Ice Cream">
         </a>
-      </div>
-  </div>
+        </div>
+        <div class="col-xs-6  border border-primary rounded mx-auto d-block m-2 p-1">
+            <a href="#">
+            <img height="150 pixels" src="vanilla.jpg" alt="Ice Cream">
+            </a>
+        </div>
+        
+        <div class="col-xs-6  border border-primary rounded mx-auto d-block m-2 p-1">
+            <a href="#">
+            <img height="150 pixels" src="choc.jpg" alt="Ice Cream">
+            </a>
+        </div>
+    </div>
+    <a class="btn btn-primary btn-lg mx-auto m-2 p-1" href="info.html" role="button">Learn more</a>
+    </div>
+</div>
+
   <br><br>
-  <p>Some of our delicious ice creams</p>
-  <br><br>
+
 <!-- <button class="btn btn-info">
     Notifications <span class="badge badge-secondary">5</span>
-</button> -->
-
+</button>
 <button class="btn btn-primary">Primary Button</button>
 <br><br>
 <button type="link" class="btn btn-link">Link</button>
+<br><br> -->
+
+<h3><span class="badge badge-primary"> NEW </span>    Join Our Mailing List   </h3>
 <br><br>
-<h3>Join Our Mailing List<span class="badge badge-primary"> NEW </span></h3>
-<br><br>
-    <table class="table table-primary table-hover"> 
-        <tr>
-            <th>UserName</th>
-            <th>FullName</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>LovesIceCream</td>
-            <td>Lulu</td>
-            <td>Lulu@gmail.com</td>
-        </tr>
-        <tr>
-            <td>IceCreamIsMe</td>
-            <td>Jojo</td>
-            <td>jojo@gmail.com</td>
-        </tr>
-        <tr>
-            <td>LivesForIceCream</td>
-            <td>Momo</td>
-            <td>Momo@gmail.com</td>
-        </tr>
-    </table>
+    <form>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="valid01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="valid01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="valid02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="valid02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validEmail" class="form-label">Email</label>
+              <div class="input-group has-validation">
+                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="user@example.com">
+                <label for="floatingInputGrid"></label>
+                <div class="invalid-feedback">
+                  Please enter a valid email account.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="valid03" class="form-label">City</label>
+              <input type="text" class="form-control" id="valid03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="valid04" class="form-label">State</label>
+              <select class="form-select" id="valid04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>AL</option><option>AK</option><option>AZ</option>
+                <option>AR</option><option>CA</option><option>CO</option>
+                <option>CT</option><option>DE</option><option>FL</option>
+                <option>GA</option><option>HI</option><option>ID</option>
+                <option>IL</option><option>IN</option><option>IA</option>
+                <option>KS</option><option>KY</option><option>LA</option>
+                <option>ME</option><option>MD</option><option>MA</option>
+                <option>MI</option><option>MN</option><option>MS</option>
+                <option>MO</option><option>MT</option><option>NE</option>
+                <option>NV</option><option>NH</option><option>NJ</option>
+                <option>NM</option><option>NY</option><option>NC</option>
+                <option>ND</option><option>OH</option><option>OK</option>
+                <option>OR</option><option>PA</option><option>RI</option>
+                <option>SC</option><option>SD</option><option>TN</option>
+                <option>TX</option><option>UT</option><option>VT</option>
+                <option>VA</option><option>WA</option><option>WV</option>
+                <option>WI</option><option>WY</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zipcode.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+    </form>
+    <br><br>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
