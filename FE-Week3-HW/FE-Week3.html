@@ -11,54 +11,50 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="week3.css">
 </head>
-<body class="container">
+<body class="container border border-primary rounded mx-auto d-block ">
     <h1>Menu</h1>
-    <div class="container-fluid m-2 p-2 mx-auto">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded">
+        <a class="navbar-brand" href="index.html">IceCreamCentral</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary rounded">
-            <a class="navbar-brand" href="index.html">IceCreamCentral</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            
-            <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse"></div>
 
 
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Ice Cream Central</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="info.html">More Information</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Coming Soon, Not Yet Implemented...
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Flavor Ideas</a></li>
-                            <li><a class="dropdown-item" href="#">Ingredients</a></li>
-                            <li><a class="dropdown-item" href="#">Suggest a Recipe</a></li>
-                        </ul>
-                    </li>  
-                </ul>
-            </div>
-        </nav>
-    </div>  <!-- End of div-->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Ice Cream Central</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">More Information</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Coming Soon, Not Yet Implemented...
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Flavor Ideas</a></li>
+                        <li><a class="dropdown-item" href="#">Ingredients</a></li>
+                        <li><a class="dropdown-item" href="#">Suggest a Recipe</a></li>
+                    </ul>
+                </li>  
+            </ul>
+        </div>
+    </nav>
 
-    
     <div class="container-fluid m-5 rounded mx-auto">
         <div class="container-fluid rounded">
             <div class="jumbotron jumbotron-fluid border-b rounded border-primary">
                <h2 class="m-5">Choose from the following options:</h2>
                 <h1 class="display-4 mx-auto m-5 p-5 rounded d-block" id="flavor_id">Today's Flavors</h1>
                 <div class="container-fluid mx-auto m-5 rounded d-block">
-                    <ul class>
+                    <ul class="li-background">
                       <li class="lead">Vanilla</li> 
                       <li class="lead">Pumpkin</li>
                       <li class="lead">Mixed Berry</li>
@@ -81,25 +77,25 @@
                         <td>Kiddy</td>
                         <td>Small</td>
                         <td>One</td>
-                        <th>Our smallest serving size!</th>
+                        <th>Our smallest</th>
                     </tr>
                     <tr>
                         <td>Junior</td>
                         <td>Medium</td>
                         <td>Two</td>
-                        <th>Our most popular serving size!</th>
+                        <th>Our most popular</th>
                     </tr>
                     <tr>
                         <td>IceCreamLover</td>
                         <td>Large</td>
                         <td>Three</td>
-                        <th>Order this size if you really love ice cream!</th>
+                        <th>For the ice cream lover</th>
                     </tr>
                     <tr>
                         <td>LivesForIceCream</td>
                         <td>Extra Large</td>
                         <td>Four</td>
-                        <th>If you love, love, love ice cream, this is for you!!</th>
+                        <th>For the ice cream fanatic</th>
                     </tr>
                 </table>
                 <h1 class="display-4 mx-auto m-5 p-5 rounded d-block">Cup or Cone</h1>

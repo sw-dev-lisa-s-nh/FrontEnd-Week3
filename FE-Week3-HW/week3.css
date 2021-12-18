@@ -23,9 +23,7 @@ table {
 
 .table-jumbo {
     background-color: lightskyblue;
-    width: 75%;
     font-weight:4px;
-
 }
 
 h2 {
@@ -35,4 +33,19 @@ h2 {
 
 li {
     font-family: 'Dancing Script', cursive;
+}
+
+.li-background {
+    background-color: lightskyblue;
+}
+
+form {
+    font-family: 'Dancing Script', cursive;
+    display : flex;
+    justify-content: center;  
+}
+
+.form-style {
+    background-color: lightgray;
+    width: 50%;
 }
